@@ -1,0 +1,30 @@
+body{
+  background: orange;
+}
+header{
+  background:white;
+  text-align: center;
+
+}
+
+img{
+  width: 15%;
+  height: 15%;
+float: left;
+}
+
+
+
+.child{
+  width : 20%;
+  padding: 1%;
+  margin:1%;
+  border-radius : 2px solid red;
+  float: right;
+}
+
+
+.link
+{
+  background-color:red;
+}

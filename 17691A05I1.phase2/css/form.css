@@ -1,0 +1,32 @@
+body{
+  background: orange;
+
+}
+
+.parent{
+  border: 2px solid white;
+  border-radius: 20px;
+  background: lightgreen;
+
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+
+}
+.career,.details,.skills{
+  margin-left: 6px;
+}
+
+#button{
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 50%;
+  margin-bottom: 5px;
+  height: 50px;
+  width:100px;
+  font-size: 25px;
+}
+
+input,select{
+  width:20%;
+  margin:1%;
+}

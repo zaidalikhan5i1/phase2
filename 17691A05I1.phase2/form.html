@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FormFiller</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="parent">
+      <!-- career objective -->
+      <div class="career">
+        <h3>career objective</h3>
+        <label for="career"><input type="text" name="career" id = "career" placeholder="career_objective" ></label>
+      </div>
+      <!-- personal_info -->
+      <div class="details">
+        <h3>personal info</h3>
+        <input type="text" name="name" id = "name" placeholder="name*" ><br>
+        <input type="text" name="emailid" id = "emailid" placeholder="email@id*"><br>
+        <input type="text" name="phno" id = "phno" placeholder="phno*">
+        <h3>graduation details</h3>
+        <input type="text" name="institute" id = "institute"placeholder="institute*"><br>
+        <select id = "yop">
+          <option>year_of_passing*</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option >2023</option>
+          <option>2024</option>
+        </select>
+        <div class="skills">
+        <h3>skills</h3>
+        <input type="text" name="skills" id = "skills" placeholder="skills">
+      </div>
+      <button type="button" name="button" id = "button" onclick="submitdata()">submit</button>
+      
+      </div>
+  </body>
+</html>
